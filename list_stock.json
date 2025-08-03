@@ -1,0 +1,198 @@
+{
+  "^CNXAUTO": {
+    "Index Name": "Nifty Auto",
+    "List of stocks": [
+      ["Mahindra & Mahindra Ltd", "M&M.NS"],
+      ["Maruti Suzuki India Ltd", "MARUTI.NS"],
+      ["Tata Motors Ltd", "TATAMOTORS.NS"],
+      ["Bajaj Auto Ltd", "BAJAJ_AUTO.NS"],
+      ["Eicher Motors Ltd", "EICHERMOT.NS"],
+      ["TVS Motor Company Ltd", "TVSMOTOR.NS"],
+      ["Hero MotoCorp Ltd", "HEROMOTOCO.NS"],
+      ["Samvardhana Motherson International Ltd", "SAMCORP.NS"],
+      ["Ashok Leyland Ltd", "ASHOKLEY.NS"],
+      ["Bharat Forge Ltd", "BHARATFORG.NS"],
+      ["Tube Investments of India Ltd", "TUBEINVEST.NS"]
+    ]
+  },
+  "^NSEBANK": {
+    "Index Name": "Nifty Bank",
+    "List of stocks": [
+      ["HDFC Bank Ltd", "HDFCBANK.NS"],
+      ["ICICI Bank Ltd", "ICICIBANK.NS"],
+      ["State Bank of India", "SBIN.NS"],
+      ["Kotak Mahindra Bank Ltd", "KOTAKBANK.NS"],
+      ["Axis Bank Ltd", "AXISBANK.NS"],
+      ["Bank of Baroda", "BANKBARODA.NS"],
+      ["Punjab National Bank", "PNB.NS"],
+      ["Canara Bank", "CANBK.NS"],
+      ["IndusInd Bank", "INDUSINDBK.NS"],
+      ["AU Small Finance Bank", "AUBANK.NS"],
+      ["IDFC First Bank Ltd", "IDFCFIRSTB.NS"],
+      ["Federal Bank Ltd", "FEDERALBNK.NS"]
+    ]
+  },
+  "^CNXFMCG": {
+    "Index Name": "Nifty FMCG",
+    "List of stocks": [
+      ["Hindustan Unilever Ltd", "HINDUNILVR.NS"],
+      ["ITC Ltd", "ITC.NS"],
+      ["Nestle India Ltd", "NESTLEIND.NS"],
+      ["Varun Beverages Ltd", "VARUNBEV.NS"],
+      ["Britannia Industries Ltd", "BRITANNIA.NS"],
+      ["Godrej Consumer Products Ltd", "GODREJCP.NS"],
+      ["Tata Consumer Products Ltd", "TATACONSUM.NS"],
+      ["United Spirits Ltd", "MCDOWELL_N.NS"],
+      ["Dabur India Ltd", "DABUR.NS"],
+      ["Marico Ltd", "MARICO.NS"],
+      ["Patanjali Foods Ltd", "PATANJALI.NS"],
+      ["Colgate‑Palmolive (India) Ltd", "COLPAL.NS"],
+      ["United Breweries Ltd", "UBL.NS"],
+      ["Radico Khaitan Ltd", "RADICO.NS"],
+      ["Emami Ltd", "EMAMILTD.NS"]
+    ]
+  },
+  "^CNXIT": {
+    "Index Name": "Nifty IT",
+    "List of stocks": [
+      ["Tata Consultancy Services Ltd", "TCS.NS"],
+      ["Infosys Ltd", "INFY.NS"],
+      ["HCL Technologies Ltd", "HCLTECH.NS"],
+      ["Wipro Ltd", "WIPRO.NS"],
+      ["LTIMindtree Ltd", "LTIMINDTREE.NS"],
+      ["Tech Mahindra Ltd", "TECHM.NS"],
+      ["Mphasis Ltd", "MPHASIS.NS"],
+      ["Persistent Systems Ltd", "PERSISTENT.NS"],
+      ["Oracle Financial Services Software Ltd", "OFSS.NS"],
+      ["Coforge Ltd", "COFORGE.NS"],
+      ["L&T Technology Services Ltd", "LTTS.NS"]
+    ]
+  },
+  "^CNXMEDIA": {
+    "Index Name": "Nifty Media",
+    "List of stocks": [
+      ["Zee Entertainment Enterprises Ltd", "ZEEL.NS"],
+      ["PVR Inox Ltd", "PVRINOX.NS"],
+      ["DB Corp Ltd", "DBCORP.NS"],
+      ["Saregama India Ltd", "SAREGAMA.NS"],
+      ["Sun TV Network Ltd", "SUNTV.NS"],
+      ["Network18 Media & Investments Ltd", "NETWORK18.NS"],
+      ["Tips Industries Ltd", "TIPSINDLTD.NS"],
+      ["Hathway Cable & Datacom Ltd", "HATHWAY.NS"],
+      ["Dish TV India Ltd", "DISHTV.NS"]
+    ]
+  },
+  "^CNXMETAL": {
+    "Index Name": "Nifty Metal",
+    "List of stocks": [
+      ["Adani Enterprises Ltd", "ADANIENT.NS"],
+      ["JSW Steel Ltd", "JSWSTEEL.NS"],
+      ["Tata Steel Ltd", "TATASTEEL.NS"],
+      ["Hindustan Zinc Ltd", "HINDZINC.NS"],
+      ["Jindal Stainless Ltd", "JINDALSTEL.NS"],
+      ["Jindal Steel & Power Ltd", "JINDALSTELP.NS"],
+      ["National Aluminium Co Ltd", "NATIONALUM.NS"],
+      ["Lloyds Metals and Energy Ltd", "LLOYDSMET.NS"]
+    ]
+  },
+  "^CNXPHARMA": {
+    "Index Name": "Nifty Pharma",
+    "List of stocks": [
+      ["Divi’s Laboratories Ltd", "DIVISLAB.NS"],
+      ["Sun Pharmaceutical Industries Ltd", "SUNPHARMA.NS"],
+      ["Torrent Pharmaceuticals Ltd", "TORNTPHARM.NS"],
+      ["Glenmark Pharmaceuticals Ltd", "GLENMARK.NS"],
+      ["Alkem Laboratories Ltd", "ALKEM.NS"],
+      ["Biocon Ltd", "BIOCON.NS"],
+      ["Laurus Labs Ltd", "LAURUSLABS.NS"],
+      ["Ipca Laboratories Ltd", "IPCALAB.NS"],
+      ["Ajanta Pharma Ltd", "AJANTPHARM.NS"],
+      ["Gland Pharma Ltd", "GLAND.NS"],
+      ["JB Chemicals & Pharmaceuticals Ltd", "JBCHEPHARM.NS"],
+      ["Natco Pharma Ltd", "NATCOPHARM.NS"],
+      ["Lupin Ltd", "LUPIN.NS"],
+      ["Mankind Pharma Ltd", "MANKINDP.NS"],
+      ["Sanofi India Ltd", "SANOFI.NS"]
+    ]
+  },
+  "^CNXPSUBANK": {
+    "Index Name": "Nifty PSU Bank",
+    "List of stocks": [
+      ["State Bank of India", "SBIN.NS"],
+      ["Bank of Baroda", "BANKBARODA.NS"],
+      ["Punjab National Bank", "PNB.NS"],
+      ["Bank of India", "BANKINDIA.NS"],
+      ["Indian Bank", "INDIANBANK.NS"],
+      ["Indian Overseas Bank", "IOB.NS"],
+      ["Canara Bank", "CANBK.NS"]
+    ]
+  },
+  "^CNXREALTY": {
+    "Index Name": "Nifty Realty",
+    "List of stocks": [
+      ["DLF Ltd", "DLF.NS"],
+      ["Macrotech Developers Ltd", "M&M.NS"],
+      ["Godrej Properties Ltd", "GODREJPROP.NS"],
+      ["Phoenix Mills Ltd", "PHOENIXLTD.NS"],
+      ["Oberoi Realty Ltd", "OBEROIRLTY.NS"],
+      ["Prestige Estates Projects Ltd", "PRESTIGE.NS"],
+      ["Brigade Enterprises Ltd", "BRIGADE.NS"],
+      ["Sobha Ltd", "SOBHA.NS"],
+      ["Raymond Ltd", "RAYMOND.NS"],
+      ["Mahindra Lifespace Developers Ltd", "MAHLIFE.NS"]
+    ]
+  },
+  "^CNXENERGY": {
+    "Index Name": "Nifty Energy",
+    "List of stocks": [
+      ["Hindustan Petroleum Corporation Ltd", "HPCL.NS"],
+      ["Indian Oil Corporation Ltd", "IOC.NS"],
+      ["GAIL (India) Ltd", "GAIL.NS"],
+      ["Gujarat State Petronet Ltd", "GSPL.NS"],
+      ["Gujarat Gas Ltd", "GUJGAS.NS"],
+      ["Adani Green Energy Ltd", "ADANIGREEN.NS"],
+      ["Adani Total Gas Ltd", "ATGL.NS"],
+      ["JSW Energy Ltd", "JSWENERGY.NS"],
+      ["Mahanagar Gas Ltd", "MAHAGAS.NS"],
+      ["Aegis Logistics Ltd", "AEGISCHEM.NS"],
+      ["CG Power and Industrial Solutions Ltd", "CGPOWER.NS"],
+      ["Inox Wind Ltd", "INOXWIND.NS"]
+    ]
+  },
+  "^CNXINFRA": {
+    "Index Name": "Nifty Infrastructure",
+    "List of stocks": [
+      ["Larsen & Toubro Ltd", "LT.NS"],
+      ["Grasim Industries Ltd", "GRASIM.NS"],
+      ["Adani Ports & SEZ Ltd", "ADANIPORTS.NS"],
+      ["Ambuja Cements Ltd", "AMBUJACEM.NS"],
+      ["Tata Power Co Ltd", "TATAPOWER.NS"],
+      ["GAIL (India) Ltd", "GAIL.NS"],
+      ["Siemens Ltd", "SIEMENS.NS"],
+      ["Apollo Hospitals Enterprises Ltd", "APOLLOHOSP.NS"]
+    ]
+  },
+  "^CNXCONSUM": {
+    "Index Name": "Nifty Consumption",
+    "List of stocks": [
+      ["Dabur India Ltd", "DABUR.NS"],
+      ["Godrej Consumer Products Ltd", "GODREJCP.NS"],
+      ["Jubilant FoodWorks Ltd", "JUBLFOOD.NS"],
+      ["Britannia Industries Ltd", "BRITANNIA.NS"],
+      ["Marico Ltd", "MARICO.NS"],
+      ["Colgate‑Palmolive (India) Ltd", "COLPAL.NS"],
+      ["United Spirits Ltd", "UBL.NS"],
+      ["Tata Consumer Products Ltd", "TATACONSUM.NS"],
+      ["Nestle India Ltd", "NESTLEIND.NS"],
+      ["Varun Beverages Ltd", "VARUNBEV.NS"]
+    ]
+  },
+  "^CNXSERVICE": {
+    "Index Name": "Nifty Services Sector",
+    "List of stocks": [
+      ["Indian Hotels Company Ltd", "INDHOTEL.NS"],
+      ["Info Edge (India) Ltd", "NAUKRI.NS"],
+      ["IRCTC Ltd", "IRCTC.NS"]
+    ]
+  }
+}
