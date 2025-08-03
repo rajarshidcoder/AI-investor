@@ -72,6 +72,7 @@ if money and term and time and api_key:
 else:
     clicked = st.button("Submit", use_container_width=True, disabled=True)
 
+
 generation1 = "'Suggestion: ^CNXFMCG\nTicker name: ^CNXFMCG\nReason:  ^CNXFMCG shows the highest closing value (56541.8) among all the indices listed in the provided data.\n'"
 if clicked:
     #downloading index data from yfin
