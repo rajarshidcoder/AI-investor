@@ -15,8 +15,11 @@ tickers_to_fetch = ['^CNXAUTO', '^NSEBANK', '^CNXFMCG', '^CNXIT', '^CNXMEDIA', '
 text = '**Suggestion:** FMCG\n**Ticker name:** ^CNXFMCG\n**Reason:** FMCG shows relatively high and stable performance compared to other sectors during the given period, indicating consistent demand and lower volatility.\n'
 
 def genAI(prompt: str) -> str:
-    resonse = model.generate_content(prompt)
-    return resonse.text
+    try:
+        resonse = model.generate_content(prompt)
+        return resonse.text
+    except Exception as e:
+        st.error(f"An error Occured, Please check correct API is given or not")
 
 def gather_stock_data(result):
     for word in result.split():
