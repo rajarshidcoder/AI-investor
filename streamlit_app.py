@@ -4,15 +4,14 @@ import yfinance as yf
 import google.generativeai as genai
 import json
 
-
-
+api_key = st.secrets["API"]
+url = "https://github.com/rajarshidcoder/AI-investor"
 
 def initialize_gemini(api_key):
     genai.configure(api_key=api_key)
     return genai.GenerativeModel("gemini-2.0-flash")
 
 tickers_to_fetch = ['^CNXAUTO', '^NSEBANK', '^CNXFMCG', '^CNXIT', '^CNXMEDIA', '^CNXMETAL', '^CNXPHARMA', '^CNXPSUBANK', '^CNXREALTY', '^CNXENERGY', '^CNXINFRA', '^CNXCONSUM', '^CNXSERVICE']
-text = '**Suggestion:** FMCG\n**Ticker name:** ^CNXFMCG\n**Reason:** FMCG shows relatively high and stable performance compared to other sectors during the given period, indicating consistent demand and lower volatility.\n'
 
 def genAI(prompt: str) -> str:
     try:
@@ -42,14 +41,13 @@ st.write("An AI agent which will extract the data from the open web to gather st
 st.divider()
 
 with st.sidebar:
-    api_key = st.text_input(
+    '''api_key = st.text_input(
             "Google API key",
             type="password",
             help="Enter your google API key to access Gemini models"
             )
     
-    st.divider()
-    url = "https://github.com/rajarshidcoder/AI-investor"
+    st.divider()'''
     st.subheader(f"Github [link]({url}) for this project")
 
 
@@ -130,6 +128,7 @@ if clicked:
     # stock_text = 'Suggestion: Varun Beverages\nReason: Varun Beverages shows a consistent upward trend, suggesting growth potential over the observed period.\nExpected return: 1.89%\nFinal return: ₹ 1,01,890\nDisclaimer: I am an AI and this is not financial advice. Consult a financial expert before making investment decisions.\n'
     for lines in stock_responce.split("\n"):
         st.markdown(lines)
+
 
 
 
