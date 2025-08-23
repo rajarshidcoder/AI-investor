@@ -41,13 +41,6 @@ st.write("An AI agent which will extract the data from the open web to gather st
 st.divider()
 
 with st.sidebar:
-    '''api_key = st.text_input(
-            "Google API key",
-            type="password",
-            help="Enter your google API key to access Gemini models"
-            )
-    
-    st.divider()'''
     st.subheader(f"Github [link]({url}) for this project")
 
 
@@ -128,6 +121,7 @@ if clicked:
     # stock_text = 'Suggestion: Varun Beverages\nReason: Varun Beverages shows a consistent upward trend, suggesting growth potential over the observed period.\nExpected return: 1.89%\nFinal return: ₹ 1,01,890\nDisclaimer: I am an AI and this is not financial advice. Consult a financial expert before making investment decisions.\n'
     for lines in stock_responce.split("\n"):
         st.markdown(lines)
+
 
 
 
